@@ -28,3 +28,6 @@
 # hit-count: 35 file-count: 1
 # https/http/file urls
 (?:\b(?:https?|ftp|file)://)[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]
+
+# tar arguments
+\bg?tar(?:(?:\s+--[-a-zA-Z]+|\s+-[a-zA-Z]+|\s+[ABGJMOPRSUWZacdfh-pr-xz]+\b)(?:(?:=|\s+)[^ ]+)?)+
